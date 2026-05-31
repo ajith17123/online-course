@@ -1,0 +1,134 @@
+.section-subtitle {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 6px;
+}
+.section-main-title {
+  color: #0f172a;
+  font-weight: 800;
+  font-size: 2.35rem;
+  letter-spacing: -0.5px;
+}
+.blog-sec {
+  background-color: #ffffff;
+}
+.blog-sec .row.g-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog-sec .row.g-4 .col {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .blog-sec .row.g-4 .col {
+    max-width: 50%;
+  }
+}
+
+.blog-premium-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+}
+.blog-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  background-color: #f8fafc;
+}
+.blog-native-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.blog-native-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.blog-content-panel {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.blog-post-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  transition: color 0.2s ease;
+}
+.blog-short-para {
+  font-size: 0.92rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.blog-action-footer {
+  margin-top: auto; 
+  padding-top: 12px;
+}
+.blog-know-more-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+.brand-icon-arrow {
+  transition: transform 0.2s ease;
+}
+.blog-premium-card:hover {
+  transform: translateY(-6px);
+  border-color: #bfdbfe; 
+}
+.blog-premium-card:hover .blog-native-img {
+  transform: scale(1.04); 
+}
+.blog-premium-card:hover .blog-post-title {
+  color: #2563eb;
+}
+.blog-premium-card:hover .blog-know-more-link {
+  color: #1d4ed8;
+}
+.blog-premium-card:hover .brand-icon-arrow {
+  transform: translateX(4px); 
+}
+
+@media (max-width: 576px) {
+  .section-main-title {
+    font-size: 1.95rem;
+  }
+  .blog-content-panel {
+    padding: 1.25rem;
+  }
+  .blog-post-title {
+    font-size: 1.15rem;
+  }
+}
+
+
+
+
+
+
+

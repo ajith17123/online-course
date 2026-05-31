@@ -1,0 +1,132 @@
+.section-subtitle {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 6px;
+}
+.section-main-title {
+  color: #0f172a;
+  font-weight: 800;
+  font-size: 2.35rem;
+  letter-spacing: -0.5px;
+}
+.about-sec {
+  background-color: #ffffff;
+}
+.about-text-para {
+  font-size: 1.05rem;
+  line-height: 1.85; 
+  color: #475569;
+  font-weight: 500;
+  text-align: justify;
+}
+.about-video-wrapper {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+.about-native-video {
+  width: 100%;
+  height: 365px;
+  object-fit: cover;
+  display: block;
+}
+.get-touch {
+  background-color: #f8fafc;
+}
+.contact-card-panel {
+  background-color: #ffffff;
+  padding: 3.5rem;
+  border-radius: 28px;
+  border: 1px solid #f1f5f9;
+}
+.form-group-custom {
+  position: relative;
+}
+.form-label-custom {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  position: absolute;
+  top: 7px;
+  left: 14px;
+  z-index: 10;
+  letter-spacing: 0.5px;
+}
+.input-wrapper-custom {
+  position: relative;
+  border-radius: 12px;
+  background-color: #f8fafc; 
+  border: 1.5px solid #e2e8f0;
+  transition: all 0.2s ease-in-out;
+}
+.form-control-custom {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 24px 40px 8px 14px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+.text-area-custom {
+  padding-top: 24px;
+}
+.input-icon-custom {
+  position: absolute;
+  right: 14px;
+  bottom: 12px;
+  color: #94a3b8;
+  font-size: 1.05rem;
+}
+.btn-auth-p {
+  background-color: #2563eb; 
+  color: #ffffff;
+  border: none;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 0.9rem 2.5rem;
+  border-radius: 12px;
+  min-width: 220px;
+  transition: all 0.2s;
+}
+.btn-auth-p:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+.btn-auth-p:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .section-main-title {
+    font-size: 1.95rem;
+  }
+  .contact-card-panel {
+    padding: 2.5rem 1.5rem;
+  }
+  .about-text-para {
+    text-align: left;
+  }
+  .about-native-video {
+    height: 280px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
